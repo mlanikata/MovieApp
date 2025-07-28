@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TicketPlus</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/8e3a121e27.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8e3a121e27.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="index.js" defer></script>
-</head>
-<body>
-    
-</body>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+
+    <nav class="nav">
+        <div class="nav__container">
+          <div class="nav__left__section">  
+            <a href="#" class="nav__img__wrapper">
+                <img src="assets/movielogo.png" alt="" class="nav__logo"/>
+            </a>
+              <div class="nav__left">
+                <a href="#home" class="nav__link">Home</a>
+                <a href="#contact" class="nav__link">Contact</a>
+              </div>
+          </div>
+              <div class="nav__right">
+                <a href="#" class="nav__link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" class="nav__link"><i class="fa-solid fa-gear"></i></a>
+              </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+<header>
+  <div class="container header__container">
+     <img src="assets/moviebackground.jpg" alt="" class="header__bg">
+     <!-- <div class="row header__row"> -->
+         <div class="header__text">
+             <h1 class="header__text__title">Ticket<span class="color-primary">+</span>
+            </h1>
+             <h4 class="header__text__subtitle">With over <span class="color-primary">3000 </span>movies on Ticket<span class="color-primary">+</span>, the possibilities are endless!</h4>
+             <div class="search__box">
+              <div class="search__input__wrapper form__submit">
+                <input type="text" class="search__box__input" placeholder="Find a movie">
+                <i class="fa-solid fa-magnifying-glass movie__search"></i>
+              </div>
+             </div>
+         </div> 
+     <!-- </div> -->
+  </div>
+</header>
+  </body>
 </html>
 
+`
